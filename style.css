@@ -48,12 +48,12 @@ header div#intro{
 
 }
 header div#intro div#name{
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: bold;
     display: flex;
 }
 header div#intro div#tagline{
-    font-size: 1rem;
+    font-size: 0.8rem;
     color: rgb(73, 73, 73);
 }
 header div#intro div#links{
@@ -93,25 +93,6 @@ header div.content div.image
 header div.ham
 {
     visibility: hidden;
-}
-
-@media only screen and (max-width: 1400px) {
-    div.container{
-        padding: 4rem;
-    }
-    header nav
-    {
-        padding: 4rem;
-
-    }
-    header div#intro div#name
-    {
-        font-size: 2.5rem;
-    }
-    header div#intro div#tagline
-    {
-        font-size: 0.8rem;
-    }
 }
 
 
