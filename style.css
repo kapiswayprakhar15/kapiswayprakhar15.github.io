@@ -139,12 +139,12 @@ header div.ham
         display: none;
     }
     div.container{
-        padding: 1.2rem;
+        padding: 0.2rem 1rem;
     }
     header nav
     {
         background-color: #D9D9D9;
-        padding: 1.2rem;
+        padding: 0.2rem 1rem;
 
     }
     header div.content{
