@@ -9,23 +9,34 @@
     
 </head>
 
-<div class="container">
+
     <header>
         <nav>
             <div id="nav-logo-container">
                 <img src="./svg/logo.jpg" id="nav-logo" width="45" height="45">
             </div>
-            <ul>
+            <ul class="nav-links">
                <a href=""><li class = "nav-menu">Home</li></a>
                <a href=""><li class = "nav-menu">About</li></a>
                <a href=""><li class = "nav-menu" >Projects</li></a>
                <a href=""><li class = "nav-menu">Skills</li></a>
                <a href=""><li class = "nav-menu">Contact</li></a>
             </ul>
+            <div class="ham">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="21" fill="none" viewBox="0 0 30 21">
+                    <rect width="30" height="3" fill="#000" rx="1.5"/>
+                    <rect width="30" height="3" y="9" fill="#000" rx="1.5"/>
+                    <rect width="30" height="3" y="18" fill="#000" rx="1.5"/>
+                  </svg>                  
+            </div>
         </nav>
+        <div class="container">
         <div class="content">
             <div id="intro">
-                <div id="name">Hi! I'm Prakhar Kapisway</div>
+                <div id="name">
+                    <div class="greet">Hi!</div>
+                    <div class="name"> &nbsp;I'm Prakhar Kapisway</div>
+            </div>
                 <div id="tagline">student @ IIT | web developer</div>
                 <div id="links">
                     <div class="github">
