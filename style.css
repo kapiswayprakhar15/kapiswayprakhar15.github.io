@@ -2,19 +2,35 @@
     padding : 0 ;
     margin : 0 ;
 }
-header{
-    padding : 80px ;
-}
-ul
+div.container
 {
+    padding: 4rem 10rem;
+}
+header{
+    padding : 0px  0px;
+    border: solid 1px black;
+}
+header nav{
+    display: flex;
+}
+header nav div#nav-logo-container
+{
+    width: 50%;
+
+}
+header nav ul
+{
+    width: 50%;
     display : flex ;
     list-style: none;
+    margin: auto 0;
+    justify-content: flex-end;
 }
-a
+header nav ul a
 {
     text-decoration: none;
 }
-.navbar
+header nav .nav-menu
 {
-    padding : 0 100px;
+    padding : 0 2rem;
 }
