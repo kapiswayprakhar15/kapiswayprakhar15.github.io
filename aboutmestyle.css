@@ -1,0 +1,132 @@
+*{
+    padding : 0 ;
+    margin : 0 ;
+}
+@media only screen and (min-width: 1000px)
+{
+    .container
+    {
+        margin: 145px ; 
+        padding : 18px ; 
+    }
+    .help {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    h2
+    {
+        font-size: 58px;
+    }
+    .quote
+    {
+        font-size : 17px ;
+    }
+    .para
+    {
+        display: inline-block;
+        width : 70vw ;
+        /* display : flex; */
+        font-size: 19px;
+        /* flex-direction: column; */
+
+        font-size: 19px;
+
+    }
+    .image
+    {
+        display: inline-block;
+        width : 400px;
+    }
+    .arrow1
+    {
+        height : 12px;
+        width : 10px ;
+        display: block;
+    }
+    .arrow
+    {
+        height : 30px;
+        width : 10px;
+        display: block;
+    }
+}
+@media only screen and (max-width: 1000px)
+{
+    h2 
+    {
+        font-size: 52px;
+        display: flex;
+    justify-content: center;
+    }
+    .container
+    {
+        margin: 81px;
+    }
+    .para
+    {
+        width: 99%;
+        margin: 0 34px;
+        font-size: 22px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    .quote{
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+    }
+    .image{
+        height: 62vh;
+        width: 95%;
+        margin: 25px;
+        display: flex;
+    justify-content: center;
+    }
+    .help
+{
+    display: flex;
+    flex-direction: column-reverse;
+}
+    .arrow {
+    visibility: hidden;
+    justify-content: center; 
+    z-index: -1;
+    }
+
+  
+    .arrow1 {
+    visibility: hidden;
+    z-index: -1;
+  }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
