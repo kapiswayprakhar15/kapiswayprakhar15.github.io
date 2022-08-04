@@ -117,6 +117,9 @@ div.bottomNav img:first-child, div.bottomNav img:nth-child(2){
 }
 
 /* css for about me page */
+div.aboutMe{
+    padding: 4rem 0;
+}
 .aboutMeContent {
     display: flex;
     justify-content: space-between;
@@ -178,7 +181,7 @@ div.mySkills .skills .technologies{
     border-radius: 0.5rem;
     padding: 1rem;
     margin-top: 0.8rem;
-    height: 7rem;
+    height: 10rem;
 
 }
 div.mySkills .skills .technologies button{
