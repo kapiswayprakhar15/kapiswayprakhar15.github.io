@@ -10,17 +10,17 @@
 </head>
 <body>
 
-    <header>
+    <header id="home">
         <nav>
             <div id="nav-logo-container">
                 <img src="./svg/logo.jpg" id="nav-logo" width="45" height="45">
             </div>
             <ul class="nav-links">
-               <a href=""><li class = "nav-menu">Home</li></a>
-               <a href=""><li class = "nav-menu">About</li></a>
-               <a href=""><li class = "nav-menu" >Projects</li></a>
-               <a href=""><li class = "nav-menu">Skills</li></a>
-               <a href=""><li class = "nav-menu">Contact</li></a>
+               <a href="#home"><li class = "nav-menu">Home</li></a>
+               <a href="#aboutMe"><li class = "nav-menu">About</li></a>
+               <a href="#myProjects"><li class = "nav-menu" >Projects</li></a>
+               <a href="#mySkills"><li class = "nav-menu">Skills</li></a>
+               <a href="#contactMe"><li class = "nav-menu">Contact</li></a>
             </ul>
             <div class="ham">
                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="21" fill="none" viewBox="0 0 30 21">
@@ -33,11 +33,11 @@
         <div class="container">
         <div class="content">
             <div class="bottomNav">
-                <img src="./svg/home.png">
-                <img src="./svg/user (1).png">
-                <img src="./svg/idea.png">
-                <img src="./svg/skills.png">
-                <img src="./svg/contact.png">
+                <a href="#home"><img src="./svg/home.png"></a>
+                <a href="#aboutMe"><img src="./svg/user (1).png"></a>
+                <a href="#myProjects"><img src="./svg/idea.png"></a>
+                <a href="#mySkills"><img src="./svg/skills.png"></a>
+                <a href="#contactMe"><img src="./svg/contact.png"></a>
             </div>
             <div id="intro">
                 <div id="name">
@@ -147,7 +147,7 @@
 
     </header>
 <!-- about me page -->
-    <div class="aboutMe">
+    <div class="aboutMe" id="aboutMe">
         <div class="container">
             <span>About Me</span>
             <div class="quote">
@@ -186,7 +186,7 @@
     </div>
 
     <!-- my projects page -->
-    <div class="myProjects">
+    <div class="myProjects" id="myProjects">
         <div class="container">
             <span class="topics">
                 My Projects
@@ -230,7 +230,7 @@
     </div>
     <!-- my skills page -->
 
-    <div class="mySkills">
+    <div class="mySkills" id="mySkills">
         <div class="container">
             <span class="topics">My Skills</span>
             <div class="quote">
@@ -287,6 +287,10 @@
             </div>
             
         </div>
+    </div>
+
+    <div class="contactMe" id="contactMe">
+        
     </div>
 
     <!-- copyright-->
