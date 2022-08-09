@@ -291,10 +291,114 @@ div.myProjects .projects .project .tech-stack-used button{
     background-color: #D9D9D9;
     border-radius: 1rem;
 }
+
+
+/* contact me 
+ */
+ div.ContactMe
+ {
+    padding: 2rem 6.5rem;
+ }
+
+ div.topics
+ {
+     margin: 61px 50px 2px 62px;
+     font-size: 37px;
+     font-weight: bolder;
+ }
+ div.container_contactme
+ {
+     display: flex;
+ }
+ div.address
+ {
+     display: flex;
+     width: 70%;
+     margin: 90px 0px 5px 62px;
+ }
+ div.contact_no
+ {
+     display: flex;
+     width: 32%;
+     margin: 2px 0px 5px 62px;
+ }
+ div.logo_group
+ {
+     display: flex;
+     width: 32%;
+     margin: 2px 0px 5px 56px;
+ 
+ }
+ div.image_contactme
+ {
+     margin: 150px 0px 5px 56px;
+ }
+ div.or
+ {
+     font-weight: bolder;
+     font-size: 29px;
+     margin: 20px 0px;
+ }
+ div.line1
+ {
+     margin: -17px 0px -4px 18px;
+ 
+ }div.line2
+ {
+     margin: 25px 0px 0px 18px;
+ 
+ }
+ ::placeholder {
+ 
+     color :#80808042;
+ }
+ .form
+ {
+     margin: 31px 0px 0px 140px;
+     padding: 30px 40px 0px 40px;
+     border-color: #80808042;
+     border-style: solid;
+     border-radius: 10px;
+     height: 600px;
+ }
+ .input-box input
+ {
+     width: 25vw;
+     font-size: 19px;
+     padding: 8px;
+     border-radius: 6px;
+     border-color: #80808042;
+     margin: 0px 0px 25px 0px;
+ }
+ .input-box2 textarea
+ {
+     width: 25vw;
+     font-size: 19px;
+     padding: 8px;
+     border-radius: 6px;
+     border-color: #80808042;
+     margin: 0px 0px 10px 0px;
+ }
+ .submit input
+ {
+     border-radius: 7px;
+     border-color: #80808042;
+     color: #80808061;
+     background-color: #80808000;
+     font-size: 17px;
+     padding: 5px;
+ 
+}
+
+
 @media only screen and (max-width: 1200px) {
     div.container{
         padding: 4rem;
     }
+    div.ContactMe
+ {
+    padding: 2rem 1rem;
+ }
     header nav
     {
         padding: 4rem;
@@ -313,6 +417,10 @@ div.myProjects .projects .project .tech-stack-used button{
 @media only screen and (max-width: 1000px) {
     div.container{
         padding: 3rem;
+    }
+    div.ContactMe
+    {
+       padding: 2rem 0rem;
     }
     header nav
     {
@@ -451,6 +559,73 @@ div.myProjects .projects .project .tech-stack-used button{
     div.myProjects .projects .project{
         height: 15rem;
     }
+
+
+    div.line1
+    {
+        visibility: hidden;
+        z-index: -1;
+        display: none;
+    
+    }
+    div.line2
+    {
+        visibility: hidden;
+        z-index: -1;
+        display: none;
+    
+    }
+    div.container_contactme
+    {
+        display: flex;
+        flex-direction: column;
+
+    }
+    div.topics
+    {
+        margin: 61px 50px 2px 15px;
+
+    }
+    div.logo_group
+    {
+        margin: 2px 0px 5px 13px;
+
+    }
+    div.contact_no
+    {
+        margin: 2px 0px 5px 18px;
+        width: 50%;
+
+    }div.address
+    {
+        margin: 30px 7px 5px 17px;
+        width: 90%;
+    }
+    div.image_contactme
+    {
+        margin: 125px 0px 5px 0px;
+        display: flex;
+        justify-content: center;
+    }
+    div.or_line
+    {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 18px;
+    }
+    div.form{
+        margin: 20px 4vw 0px 4vw;
+        padding: 30px 2vw 0px 8vw;
+    }
+    .input-box input 
+    {
+        width: 70vw;
+    }
+    .input-box2 textarea
+    {
+        width: 70vw;
+    }   
 }
 
 
